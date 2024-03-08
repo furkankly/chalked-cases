@@ -1,0 +1,15 @@
+{
+  "name": "@furkankly/chalked-cases",
+  "version": "1.0.4",
+  "exports": "./mod.ts",
+  "tasks": {
+    "dev": "deno run --watch mod.ts"
+  },
+  "imports": {
+    "@luca/cases": "jsr:@luca/cases@1.0.0",
+    "chalk": "npm:chalk@5"
+  },
+  "publish": {
+    "exclude": [".github"]
+  }
+}
